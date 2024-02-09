@@ -158,3 +158,28 @@
     height: 25px;
     margin: 0 20px 0 0;
 }
+
+@media only screen and (max-width: 600px){
+    .login_container{
+        flex-direction: column;
+        margin-top: 10vh;
+    }   
+
+    .sidehug{
+        margin-top: 20vh;
+    }
+
+    .login_image{
+        width: 50vw;
+    }
+
+    .right_sidehug{
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login_form{
+        width: 60vw;
+    }
+}
