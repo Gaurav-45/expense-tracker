@@ -6,6 +6,7 @@
     padding: 0 5%;
     height: 10vh;
     box-shadow: rgba(36, 36, 129, 0.2) 0px 7px 29px 0px;
+    max-height: 10vh;
 }
 
 .logo{
@@ -32,4 +33,12 @@
     background: transparent;
     color: rgb(39, 31, 224);
   }
-  
+
+@media only screen and (max-width: 600px){
+    .login_btn button{
+        width: auto;
+        height: 35px;
+        margin: 10px;
+        font-size: 17px;
+    }
+}
