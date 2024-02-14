@@ -182,4 +182,8 @@
     .login_form{
         width: 60vw;
     }
+    .login_google_image{
+        height: 25px;
+        margin: 0 10px 0 0;
+    }
 }
