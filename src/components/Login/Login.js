@@ -6,7 +6,7 @@ import googleImg from "../../images/google.svg"
 
 const login = () => {
   const [creds, setCreds] = useState({
-    identifier: "",
+    email: "",
     password: "",
   });
 
@@ -27,11 +27,11 @@ const login = () => {
               <label>Email</label>
               <input
                 onChange={(e) => (e) =>
-                  setCreds({ ...creds, identifier: e.target.value })}
+                  setCreds({ ...creds, email: e.target.value })}
                 type="text"
                 name="username"
                 id="username"
-                value={creds.username}
+                value={creds.email}
                 placeholder="Email"
               />
             </div>
